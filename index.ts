@@ -1,6 +1,7 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 import TasksRoutes from './src/routes/tasks'
+import './src/database'
 
 const PORT = process.env.PORT || 3000
 
